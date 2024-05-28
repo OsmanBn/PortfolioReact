@@ -1,0 +1,128 @@
+@import '../../vars.css';
+
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 79px;
+    color: var(--color-text);
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.content{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skills{
+    width: 45%;
+    display: flex;
+    gap: 37px;
+    flex-wrap: wrap;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+
+
+.imageContainer{
+    background-color: var(--color-secondary);
+    padding: 18px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.attestation{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.attestation h2{
+    font-size: 30px;
+}
+
+.history{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.historyItem{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    background: #19376d;
+    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+    padding: 24px;
+    list-style: none;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.historyItem img{
+    width: 50px;
+}
+
+.historyItemDetails{
+    font-family: var(--font-roboto);
+}
+
+.historyItemDetails h3{
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.historyItemDetails p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.historyItemDetails a{
+    color: var(--color-text);
+    text-decoration: none;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+.historyItemDetails ul{
+    margin-top: 6px;
+    font-size: 25px;
+    list-style-position: inside;
+    margin-left: 17px;
+    list-style-type: disc;
+}
+
+@media screen and (max-width:830px){
+    .content{
+        flex-direction: column;
+        align-items: column;
+        gap:34px;
+    }
+    .skills{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;       
+    }
+    .history{
+        width: 100%;
+        gap: 9px;
+    }
+}

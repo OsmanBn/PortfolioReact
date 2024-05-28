@@ -1,0 +1,26 @@
+[
+    {
+        "title":"html",
+        "imageSrc":"skills/html.png"
+    },
+    {
+        "title":"css",
+        "imageSrc":"skills/css.png"
+    },
+    {
+        "title":"react",
+        "imageSrc":"skills/react.png"
+    },
+    {
+        "title":"django",
+        "imageSrc":"skills/django.png"
+    },
+    {
+        "title":"springboot",
+        "imageSrc":"skills/springboot.png"
+    },
+    {
+        "title":"Android",
+        "imageSrc":"skills/android.png"
+    }
+]

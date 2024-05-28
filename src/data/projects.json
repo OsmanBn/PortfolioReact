@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Project Inventaire",
+        "imageSrc": "projects/ProjectDjango.png",
+        "description": "Projet web: système de gestion d'inventaire, dashboard d'administration, interface de commande, authentification...",
+        "skills": ["Django","Bootstrap"],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/OsmanBn/Inventory_Management_Django"
+    },
+    {
+        "title": "Project Boutique E-commerce",
+        "imageSrc": "projects/project.png",
+        "description": "Plateforme d'achat en ligne, espace administrateur, espace client, panier d'achat...",
+        "skills": ["Springboot", "Thymeleaf", "Bootstrap"],
+        "demo": "https://www.example.com",
+        "source": "https://github.com/OsmanBn/Springboot-ecommerce-1"
+    }
+]
